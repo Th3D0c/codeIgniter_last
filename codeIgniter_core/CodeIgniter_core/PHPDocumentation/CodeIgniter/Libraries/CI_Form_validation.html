@@ -1,0 +1,2987 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class CI_Form_validation</title>
+	<link rel="stylesheet" type="text/css" href="../../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">CodeIgniter<br /><div class="header-top-right-subpackage">Libraries</div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+  		  [ <a href="../../classtrees_CodeIgniter.html" class="menu">class tree: CodeIgniter</a> ]
+		  [ <a href="../../elementindex_CodeIgniter.html" class="menu">index: CodeIgniter</a> ]
+		  [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">CodeIgniter</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../../li_default.html">default</a><br />
+              <a href="../../li_CodeIgniter.html">CodeIgniter</a><br />
+      	</div>
+      <br />
+                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---array_helper.php.html">array_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Benchmark.php.html">Benchmark.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---Cache.php.html">Cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_apc.php.html">Cache_apc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_dummy.php.html">Cache_dummy.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_file.php.html">Cache_file.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_memcached.php.html">Cache_memcached.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Calendar.php.html">Calendar.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---captcha_helper.php.html">captcha_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cart.php.html">Cart.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---CodeIgniter.php.html">CodeIgniter.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Common.php.html">Common.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Config.php.html">Config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Controller.php.html">Controller.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---cookie_helper.php.html">cookie_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_driver.php.html">cubrid_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_forge.php.html">cubrid_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_result.php.html">cubrid_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_utility.php.html">cubrid_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---date_helper.php.html">date_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB.php.html">DB.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_active_rec.php.html">DB_active_rec.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_cache.php.html">DB_cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_driver.php.html">DB_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_forge.php.html">DB_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_result.php.html">DB_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_utility.php.html">DB_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---directory_helper.php.html">directory_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---download_helper.php.html">download_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Driver.php.html">Driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Email.php.html">Email.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---email_helper.php.html">email_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Encrypt.php.html">Encrypt.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Exceptions.php.html">Exceptions.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---file_helper.php.html">file_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---form_helper.php.html">form_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Form_validation.php.html">Form_validation.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Ftp.php.html">Ftp.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Hooks.php.html">Hooks.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---html_helper.php.html">html_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Image_lib.php.html">Image_lib.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---inflector_helper.php.html">inflector_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Input.php.html">Input.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Javascript.php.html">Javascript.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---javascript---Jquery.php.html">Jquery.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Lang.php.html">Lang.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---language_helper.php.html">language_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Loader.php.html">Loader.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Log.php.html">Log.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Migration.php.html">Migration.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Model.php.html">Model.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_driver.php.html">mssql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_forge.php.html">mssql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_result.php.html">mssql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_utility.php.html">mssql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_driver.php.html">mysqli_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_forge.php.html">mysqli_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_result.php.html">mysqli_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_utility.php.html">mysqli_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_driver.php.html">mysql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_forge.php.html">mysql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_result.php.html">mysql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_utility.php.html">mysql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---number_helper.php.html">number_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_driver.php.html">oci8_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_forge.php.html">oci8_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_result.php.html">oci8_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_utility.php.html">oci8_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_driver.php.html">odbc_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_forge.php.html">odbc_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_result.php.html">odbc_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_utility.php.html">odbc_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Output.php.html">Output.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Pagination.php.html">Pagination.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Parser.php.html">Parser.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---path_helper.php.html">path_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_driver.php.html">pdo_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_forge.php.html">pdo_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_result.php.html">pdo_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_utility.php.html">pdo_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_driver.php.html">postgre_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_forge.php.html">postgre_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_result.php.html">postgre_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_utility.php.html">postgre_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Profiler.php.html">Profiler.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Router.php.html">Router.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Security.php.html">Security.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---security_helper.php.html">security_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Session.php.html">Session.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Sha1.php.html">Sha1.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---smiley_helper.php.html">smiley_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_driver.php.html">sqlite_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_forge.php.html">sqlite_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_result.php.html">sqlite_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_utility.php.html">sqlite_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_driver.php.html">sqlsrv_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_forge.php.html">sqlsrv_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_result.php.html">sqlsrv_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_utility.php.html">sqlsrv_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---string_helper.php.html">string_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Table.php.html">Table.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---text_helper.php.html">text_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Trackback.php.html">Trackback.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Typography.php.html">Typography.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---typography_helper.php.html">typography_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Unit_test.php.html">Unit_test.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Upload.php.html">Upload.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---URI.php.html">URI.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---url_helper.php.html">url_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---User_agent.php.html">User_agent.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Utf8.php.html">Utf8.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Xmlrpc.php.html">Xmlrpc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Xmlrpcs.php.html">Xmlrpcs.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---xml_helper.php.html">xml_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Zip.php.html">Zip.php</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	Libraries<br />	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Benchmark.html">CI_Benchmark</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache.html">CI_Cache</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_apc.html">CI_Cache_apc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_dummy.html">CI_Cache_dummy</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_file.html">CI_Cache_file</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_memcached.html">CI_Cache_memcached</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Calendar.html">CI_Calendar</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cart.html">CI_Cart</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Config.html">CI_Config</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Controller.html">CI_Controller</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Driver.html">CI_Driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Driver_Library.html">CI_Driver_Library</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Email.html">CI_Email</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Encrypt.html">CI_Encrypt</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Exceptions.html">CI_Exceptions</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Form_validation.html">CI_Form_validation</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_FTP.html">CI_FTP</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Hooks.html">CI_Hooks</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Image_lib.html">CI_Image_lib</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Input.html">CI_Input</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Javascript.html">CI_Javascript</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Jquery.html">CI_Jquery</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Lang.html">CI_Lang</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Loader.html">CI_Loader</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Log.html">CI_Log</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Migration.html">CI_Migration</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Model.html">CI_Model</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Output.html">CI_Output</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Pagination.html">CI_Pagination</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Parser.html">CI_Parser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Profiler.html">CI_Profiler</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Router.html">CI_Router</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Security.html">CI_Security</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Session.html">CI_Session</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_SHA1.html">CI_SHA1</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Table.html">CI_Table</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Trackback.html">CI_Trackback</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Unit_test.html">CI_Unit_test</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Upload.html">CI_Upload</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_URI.html">CI_URI</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_User_agent.html">CI_User_agent</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Utf8.html">CI_Utf8</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Xmlrpc.html">CI_Xmlrpc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Xmlrpcs.html">CI_Xmlrpcs</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Zip.html">CI_Zip</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Client.html">XML_RPC_Client</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Message.html">XML_RPC_Message</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Values.html">XML_RPC_Values</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Drivers<br />	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_active_record.html">CI_DB_active_record</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_cubrid_driver.html">CI_DB_cubrid_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_driver.html">CI_DB_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mssql_driver.html">CI_DB_mssql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mysqli_driver.html">CI_DB_mysqli_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mysql_driver.html">CI_DB_mysql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_odbc_driver.html">CI_DB_odbc_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_pdo_driver.html">CI_DB_pdo_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_postgre_driver.html">CI_DB_postgre_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_sqlite_driver.html">CI_DB_sqlite_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_sqlsrv_driver.html">CI_DB_sqlsrv_driver</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../../CodeIgniter/CI_DB_Cache.html">CI_DB_Cache</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_forge.html">CI_DB_cubrid_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_result.html">CI_DB_cubrid_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_utility.html">CI_DB_cubrid_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_forge.html">CI_DB_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_forge.html">CI_DB_mssql_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_result.html">CI_DB_mssql_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_utility.html">CI_DB_mssql_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_forge.html">CI_DB_mysqli_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_result.html">CI_DB_mysqli_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_utility.html">CI_DB_mysqli_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_forge.html">CI_DB_mysql_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_result.html">CI_DB_mysql_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_utility.html">CI_DB_mysql_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_driver.html">CI_DB_oci8_driver</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_forge.html">CI_DB_oci8_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_result.html">CI_DB_oci8_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_utility.html">CI_DB_oci8_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_forge.html">CI_DB_odbc_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_result.html">CI_DB_odbc_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_utility.html">CI_DB_odbc_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_forge.html">CI_DB_pdo_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_result.html">CI_DB_pdo_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_utility.html">CI_DB_pdo_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_forge.html">CI_DB_postgre_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_result.html">CI_DB_postgre_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_utility.html">CI_DB_postgre_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_result.html">CI_DB_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_forge.html">CI_DB_sqlite_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_result.html">CI_DB_sqlite_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_utility.html">CI_DB_sqlite_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_forge.html">CI_DB_sqlsrv_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_result.html">CI_DB_sqlsrv_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_utility.html">CI_DB_sqlsrv_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_utility.html">CI_DB_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_Typography.html">CI_Typography</a>    	 <br />
+	    		<a href="../../CodeIgniter/XML_RPC_Response.html">XML_RPC_Response</a>    	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: CI_Form_validation</h1>
+Source Location: /libraries/Form_validation.php<br /><br />
+
+<h2 class="class-name">Class CI_Form_validation</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span> |
+						
+											<a href="#sec-var-summary">Properties Summary</a> | <a href="#sec-vars">Properties Detail</a>
+						|											<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>Form Validation Class
+</strong></p>
+
+		<p class="notes">
+			Located in <a class="field" href="_libraries---Form_validation.php.html">/libraries/Form_validation.php</a> [<span class="field">line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a27">27</a></span>]
+		</p>
+
+		
+		<pre></pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>ExpressionEngine Dev Team</li>
+			 		  			 		  		</ul>
+		
+		
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Link:</strong>&nbsp;&nbsp;</td><td><a href="http://codeigniter.com/user_guide/libraries/form_validation.html">http://codeigniter.com/user_guide/libraries/form_validation.html</a></td></tr>
+	</table>
+		</td>
+
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_vars">Properties</a></strong></p>
+		<ul>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$CI">$CI</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$error_string">$error_string</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_config_rules">$_config_rules</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_error_array">$_error_array</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_error_messages">$_error_messages</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_error_prefix">$_error_prefix</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_error_suffix">$_error_suffix</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_field_data">$_field_data</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#var$_safe_form_data">$_safe_form_data</a></li>
+		  		</ul>
+		</td>
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#method__construct">__construct</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodalpha">alpha</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodalpha_dash">alpha_dash</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodalpha_numeric">alpha_numeric</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methoddecimal">decimal</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodencode_php_tags">encode_php_tags</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methoderror">error</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methoderror_string">error_string</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodexact_length">exact_length</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodgreater_than">greater_than</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodinteger">integer</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodis_natural">is_natural</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodis_natural_no_zero">is_natural_no_zero</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodis_numeric">is_numeric</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodis_unique">is_unique</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodless_than">less_than</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodmatches">matches</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodmax_length">max_length</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodmin_length">min_length</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodnumeric">numeric</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodprep_for_form">prep_for_form</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodprep_url">prep_url</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodregex_match">regex_match</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodrequired">required</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodrun">run</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_checkbox">set_checkbox</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_error_delimiters">set_error_delimiters</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_message">set_message</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_radio">set_radio</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_rules">set_rules</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_select">set_select</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodset_value">set_value</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodstrip_image_tags">strip_image_tags</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodvalid_base64">valid_base64</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodvalid_email">valid_email</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodvalid_emails">valid_emails</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodvalid_ip">valid_ip</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#methodxss_clean">xss_clean</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#method_execute">_execute</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#method_reduce_array">_reduce_array</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#method_reset_post_array">_reset_post_array</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Form_validation.html#method_translate_fieldname">_translate_fieldname</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Property Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+									<span class="disabled">Property Summary</span> | <a href="#sec-vars">Properties Detail</a>
+												<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											    				</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+			<table border="0" cellspacing="0" cellpadding="0" class="var-summary">
+																																																																			<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$CI" title="details" class="var-name-summary">$CI</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$error_string" title="details" class="var-name-summary">$error_string</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_config_rules" title="details" class="var-name-summary">$_config_rules</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_error_array" title="details" class="var-name-summary">$_error_array</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_error_messages" title="details" class="var-name-summary">$_error_messages</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_error_prefix" title="details" class="var-name-summary">$_error_prefix</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_error_suffix" title="details" class="var-name-summary">$_error_suffix</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_field_data" title="details" class="var-name-summary">$_field_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_safe_form_data" title="details" class="var-name-summary">$_safe_form_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+										</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+																		<a href="#sec-var-summary">Properties Summary</a> | <a href="#sec-vars">Properties Detail</a>
+											    					<span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">CI_Form_validation</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#__construct" title="details" class="method-name">__construct</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Constructor</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#alpha" title="details" class="method-name">alpha</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Alpha</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#alpha_dash" title="details" class="method-name">alpha_dash</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Alpha-numeric with underscores and dashes</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#alpha_numeric" title="details" class="method-name">alpha_numeric</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Alpha-numeric</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#decimal" title="details" class="method-name">decimal</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Decimal number</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#encode_php_tags" title="details" class="method-name">encode_php_tags</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Convert PHP tags to entities</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#error" title="details" class="method-name">error</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Get Error Message</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">str</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#error_string" title="details" class="method-name">error_string</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Error String</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#exact_length" title="details" class="method-name">exact_length</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Exact Length</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#greater_than" title="details" class="method-name">greater_than</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Greather than</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#integer" title="details" class="method-name">integer</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Integer</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#is_natural" title="details" class="method-name">is_natural</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Is a Natural number  (0,1,2,3, etc.)</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#is_natural_no_zero" title="details" class="method-name">is_natural_no_zero</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Is a Natural number, but not a zero  (1,2,3, etc.)</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#is_numeric" title="details" class="method-name">is_numeric</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Is Numeric</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#is_unique" title="details" class="method-name">is_unique</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Match one field to another</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#less_than" title="details" class="method-name">less_than</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Less than</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#matches" title="details" class="method-name">matches</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Match one field to another</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#max_length" title="details" class="method-name">max_length</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Max Length</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#min_length" title="details" class="method-name">min_length</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Minimum Length</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#numeric" title="details" class="method-name">numeric</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Numeric</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#prep_for_form" title="details" class="method-name">prep_for_form</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Prep data for form</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#prep_url" title="details" class="method-name">prep_url</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Prep URL</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#regex_match" title="details" class="method-name">regex_match</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Performs a Regular Expression match test.</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#required" title="details" class="method-name">required</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Required</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#run" title="details" class="method-name">run</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Run the Validator</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_checkbox" title="details" class="method-name">set_checkbox</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set Checkbox</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_error_delimiters" title="details" class="method-name">set_error_delimiters</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set The Error Delimiter</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_message" title="details" class="method-name">set_message</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set Error Message</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_radio" title="details" class="method-name">set_radio</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set Radio</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_rules" title="details" class="method-name">set_rules</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set Rules</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_select" title="details" class="method-name">set_select</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set Select</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_value" title="details" class="method-name">set_value</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Get the value from a form</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#strip_image_tags" title="details" class="method-name">strip_image_tags</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Strip Image Tags</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#valid_base64" title="details" class="method-name">valid_base64</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Valid Base64</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#valid_email" title="details" class="method-name">valid_email</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Valid Email</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">bool</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#valid_emails" title="details" class="method-name">valid_emails</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Valid Emails</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#valid_ip" title="details" class="method-name">valid_ip</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Validate IP Address</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#xss_clean" title="details" class="method-name">xss_clean</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">XSS Clean</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_execute" title="details" class="method-name">_execute</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Executes the Validation routines</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_reduce_array" title="details" class="method-name">_reduce_array</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Traverse a multidimensional $_POST array index until the data is found</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">null</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_reset_post_array" title="details" class="method-name">_reset_post_array</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Re-populate the _POST array with our finalized and processed data</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_translate_fieldname" title="details" class="method-name">_translate_fieldname</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Translate a field name</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+													<a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+			
+							|
+									<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+			<a name="var$CI" id="$CI"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$CI</span>
+						<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a29">29</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$error_string" id="$error_string"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$error_string</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a36">36</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_config_rules" id="$_config_rules"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_config_rules</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a31">31</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_error_array" id="$_error_array"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_error_array</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a32">32</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_error_messages" id="$_error_messages"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_error_messages</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a33">33</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_error_prefix" id="$_error_prefix"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_error_prefix</span>
+			 = <span class="var-default"> '&lt;p&gt;'</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a34">34</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_error_suffix" id="$_error_suffix"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_error_suffix</span>
+			 = <span class="var-default"> '&lt;/p&gt;'</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a35">35</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_field_data" id="$_field_data"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_field_data</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a30">30</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_safe_form_data" id="$_safe_form_data"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_safe_form_data</span>
+			 = <span class="var-default"> FALSE</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a37">37</a>]</span>
+		</span>
+	</div>
+
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+									                |
+									<a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Constructor __construct</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a42">42</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>CI_Form_validation __construct(
+[
+$rules = array()]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Constructor
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$rules:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodalpha" id="alpha"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">alpha</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1098">1098</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool alpha(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Alpha
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodalpha_dash" id="alpha_dash"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">alpha_dash</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1126">1126</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool alpha_dash(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Alpha-numeric with underscores and dashes
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodalpha_numeric" id="alpha_numeric"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">alpha_numeric</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1112">1112</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool alpha_numeric(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Alpha-numeric
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methoddecimal" id="decimal"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">decimal</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1183">1183</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool decimal(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Decimal number
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodencode_php_tags" id="encode_php_tags"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">encode_php_tags</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1372">1372</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string encode_php_tags(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Convert PHP tags to entities
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methoderror" id="error"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">error</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a208">208</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void error(
+[string
+$field = ''], [
+$prefix = ''], [
+$suffix = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Get Error Message
+</strong></p>
+<span class="description"><p>Gets the error message associated with a particular field</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the field name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$prefix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$suffix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methoderror_string" id="error_string"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">error_string</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a240">240</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>str error_string(
+[string
+$prefix = ''], [string
+$suffix = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Error String
+</strong></p>
+<span class="description"><p>Returns the error messages as a string, wrapped in the error delimiters</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$prefix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$suffix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodexact_length" id="exact_length"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">exact_length</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1019">1019</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool exact_length(
+string
+$str, value
+$val&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Exact Length
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">value</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$val:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgreater_than" id="greater_than"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">greater_than</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1197">1197</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool greater_than(
+string
+$str, 
+$min&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Greather than
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$min:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodinteger" id="integer"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">integer</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1169">1169</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool integer(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Integer
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodis_natural" id="is_natural"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">is_natural</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1233">1233</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool is_natural(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Is a Natural number  (0,1,2,3, etc.)
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodis_natural_no_zero" id="is_natural_no_zero"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">is_natural_no_zero</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1247">1247</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool is_natural_no_zero(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Is a Natural number, but not a zero  (1,2,3, etc.)
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodis_numeric" id="is_numeric"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">is_numeric</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1155">1155</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool is_numeric(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Is Numeric
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodis_unique" id="is_unique"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">is_unique</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a951">951</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool is_unique(
+string
+$str, field
+$field&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Match one field to another
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">field</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodless_than" id="less_than"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">less_than</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1215">1215</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool less_than(
+string
+$str, 
+$max&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Less than
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$max:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmatches" id="matches"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">matches</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a929">929</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool matches(
+string
+$str, field
+$field&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Match one field to another
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">field</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmax_length" id="max_length"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">max_length</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a994">994</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool max_length(
+string
+$str, value
+$val&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Max Length
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">value</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$val:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmin_length" id="min_length"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">min_length</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a969">969</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool min_length(
+string
+$str, value
+$val&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Minimum Length
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">value</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$val:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodnumeric" id="numeric"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">numeric</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1140">1140</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool numeric(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Numeric
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodprep_for_form" id="prep_for_form"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">prep_for_form</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1291">1291</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string prep_for_form(
+[string
+$data = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Prep data for form
+</strong></p>
+<span class="description"><p>This function allows HTML to be safely shown in a form.  Special characters are converted.</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$data:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodprep_url" id="prep_url"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">prep_url</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1320">1320</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string prep_url(
+[string
+$str = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Prep URL
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodregex_match" id="regex_match"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">regex_match</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a909">909</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool regex_match(
+string
+$str, regex
+$regex&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Performs a Regular Expression match test.
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">regex</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$regex:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodrequired" id="required"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">required</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a887">887</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool required(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Required
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodrun" id="run"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">run</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a281">281</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool run(
+[
+$group = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Run the Validator
+</strong></p>
+<span class="description"><p>This function does all the work.</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$group:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_checkbox" id="set_checkbox"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_checkbox</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a847">847</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_checkbox(
+[string
+$field = ''], [string
+$value = ''], [
+$default = FALSE]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set Checkbox
+</strong></p>
+<span class="description"><p>Enables checkboxes to be set to the value the user  selected in the event of an error</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$default:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_error_delimiters" id="set_error_delimiters"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">set_error_delimiters</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a189">189</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void set_error_delimiters(
+[string
+$prefix = '&lt;p&gt;'], [string
+$suffix = '&lt;/p&gt;']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set The Error Delimiter
+</strong></p>
+<span class="description"><p>Permits a prefix/suffix to be added to each error message</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$prefix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$suffix:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_message" id="set_message"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_message</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a165">165</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_message(
+string
+$lang, [string
+$val = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set Error Message
+</strong></p>
+<span class="description"><p>Lets users set their own error messages on the fly.  Note:  The key  name has to match the  function name that it corresponds to.</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$lang:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$val:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_radio" id="set_radio"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">set_radio</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a803">803</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_radio(
+[string
+$field = ''], [string
+$value = ''], [
+$default = FALSE]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set Radio
+</strong></p>
+<span class="description"><p>Enables radio buttons to be set to the value the user  selected in the event of an error</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$default:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_rules" id="set_rules"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_rules</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a74">74</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void set_rules(
+mixed
+$field, [string
+$label = ''], [
+$rules = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set Rules
+</strong></p>
+<span class="description"><p>This function takes an array of field names and validation  rules as input, validates the info, and stores it</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$label:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$rules:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_select" id="set_select"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">set_select</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a759">759</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_select(
+[string
+$field = ''], [string
+$value = ''], [
+$default = FALSE]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set Select
+</strong></p>
+<span class="description"><p>Enables pull-down lists to be set to the value the user  selected in the event of an error</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$default:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_value" id="set_value"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_value</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a729">729</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void set_value(
+[string
+$field = ''], [string
+$default = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Get the value from a form
+</strong></p>
+<span class="description"><p>Permits you to repopulate a form field with the value it was submitted  with, or, if that value doesn't exist, with the default</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$field:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the field name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$default:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodstrip_image_tags" id="strip_image_tags"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">strip_image_tags</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1344">1344</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string strip_image_tags(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Strip Image Tags
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodvalid_base64" id="valid_base64"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">valid_base64</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1274">1274</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool valid_base64(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Valid Base64
+</strong></p>
+<span class="description"><p>Tests a string for characters outside of the Base64 alphabet  as defined by RFC 2045 http://www.faqs.org/rfcs/rfc2045</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodvalid_email" id="valid_email"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">valid_email</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1043">1043</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool valid_email(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Valid Email
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodvalid_emails" id="valid_emails"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">valid_emails</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1057">1057</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>bool valid_emails(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Valid Emails
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodvalid_ip" id="valid_ip"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">valid_ip</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1084">1084</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string valid_ip(
+string
+$ip&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Validate IP Address
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$ip:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodxss_clean" id="xss_clean"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">xss_clean</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a1358">1358</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string xss_clean(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>XSS Clean
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_execute" id="_execute"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_execute</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a470">470</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed _execute(
+array
+$row, array
+$rules, [mixed
+$postdata = NULL], [integer
+$cycles = 0]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Executes the Validation routines
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$row:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$rules:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$postdata:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$cycles:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_reduce_array" id="_reduce_array"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_reduce_array</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a376">376</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed _reduce_array(
+array
+$array, array
+$keys, [integer
+$i = 0]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Traverse a multidimensional $_POST array index until the data is found
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$array:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keys:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$i:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_reset_post_array" id="_reset_post_array"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_reset_post_array</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a408">408</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>null _reset_post_array(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Re-populate the _POST array with our finalized and processed data
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_translate_fieldname" id="_translate_fieldname"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_translate_fieldname</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesForm_validation.php.html#a697">697</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _translate_fieldname(
+string
+$fieldname&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Translate a field name
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$fieldname:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the field name</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Mon, 07 May 2012 21:04:54 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

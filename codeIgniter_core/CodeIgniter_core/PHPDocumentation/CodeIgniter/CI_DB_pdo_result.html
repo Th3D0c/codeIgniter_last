@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class CI_DB_pdo_result</title>
+	<link rel="stylesheet" type="text/css" href="../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">CodeIgniter<br /><div class="header-top-right-subpackage"></div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+  		  [ <a href="../classtrees_CodeIgniter.html" class="menu">class tree: CodeIgniter</a> ]
+		  [ <a href="../elementindex_CodeIgniter.html" class="menu">index: CodeIgniter</a> ]
+		  [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">CodeIgniter</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_CodeIgniter.html">CodeIgniter</a><br />
+      	</div>
+      <br />
+                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---array_helper.php.html">array_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Benchmark.php.html">Benchmark.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cache---Cache.php.html">Cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cache---drivers---Cache_apc.php.html">Cache_apc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cache---drivers---Cache_dummy.php.html">Cache_dummy.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cache---drivers---Cache_file.php.html">Cache_file.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cache---drivers---Cache_memcached.php.html">Cache_memcached.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Calendar.php.html">Calendar.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---captcha_helper.php.html">captcha_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Cart.php.html">Cart.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---CodeIgniter.php.html">CodeIgniter.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Common.php.html">Common.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Config.php.html">Config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Controller.php.html">Controller.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---cookie_helper.php.html">cookie_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---cubrid---cubrid_driver.php.html">cubrid_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---cubrid---cubrid_forge.php.html">cubrid_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---cubrid---cubrid_result.php.html">cubrid_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---cubrid---cubrid_utility.php.html">cubrid_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---date_helper.php.html">date_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB.php.html">DB.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_active_rec.php.html">DB_active_rec.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_cache.php.html">DB_cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_driver.php.html">DB_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_forge.php.html">DB_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_result.php.html">DB_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---DB_utility.php.html">DB_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---directory_helper.php.html">directory_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---download_helper.php.html">download_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Driver.php.html">Driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Email.php.html">Email.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---email_helper.php.html">email_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Encrypt.php.html">Encrypt.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Exceptions.php.html">Exceptions.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---file_helper.php.html">file_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---form_helper.php.html">form_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Form_validation.php.html">Form_validation.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Ftp.php.html">Ftp.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Hooks.php.html">Hooks.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---html_helper.php.html">html_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Image_lib.php.html">Image_lib.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---inflector_helper.php.html">inflector_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Input.php.html">Input.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Javascript.php.html">Javascript.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---javascript---Jquery.php.html">Jquery.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Lang.php.html">Lang.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---language_helper.php.html">language_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Loader.php.html">Loader.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Log.php.html">Log.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Migration.php.html">Migration.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Model.php.html">Model.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mssql---mssql_driver.php.html">mssql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mssql---mssql_forge.php.html">mssql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mssql---mssql_result.php.html">mssql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mssql---mssql_utility.php.html">mssql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysqli---mysqli_driver.php.html">mysqli_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysqli---mysqli_forge.php.html">mysqli_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysqli---mysqli_result.php.html">mysqli_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysqli---mysqli_utility.php.html">mysqli_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysql---mysql_driver.php.html">mysql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysql---mysql_forge.php.html">mysql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysql---mysql_result.php.html">mysql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---mysql---mysql_utility.php.html">mysql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---number_helper.php.html">number_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---oci8---oci8_driver.php.html">oci8_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---oci8---oci8_forge.php.html">oci8_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---oci8---oci8_result.php.html">oci8_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---oci8---oci8_utility.php.html">oci8_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---odbc---odbc_driver.php.html">odbc_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---odbc---odbc_forge.php.html">odbc_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---odbc---odbc_result.php.html">odbc_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---odbc---odbc_utility.php.html">odbc_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Output.php.html">Output.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Pagination.php.html">Pagination.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Parser.php.html">Parser.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---path_helper.php.html">path_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---pdo---pdo_driver.php.html">pdo_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---pdo---pdo_forge.php.html">pdo_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---pdo---pdo_result.php.html">pdo_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---pdo---pdo_utility.php.html">pdo_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---postgre---postgre_driver.php.html">postgre_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---postgre---postgre_forge.php.html">postgre_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---postgre---postgre_result.php.html">postgre_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---postgre---postgre_utility.php.html">postgre_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Profiler.php.html">Profiler.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Router.php.html">Router.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Security.php.html">Security.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---security_helper.php.html">security_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Session.php.html">Session.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Sha1.php.html">Sha1.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---smiley_helper.php.html">smiley_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlite---sqlite_driver.php.html">sqlite_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlite---sqlite_forge.php.html">sqlite_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlite---sqlite_result.php.html">sqlite_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlite---sqlite_utility.php.html">sqlite_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_driver.php.html">sqlsrv_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_forge.php.html">sqlsrv_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_result.php.html">sqlsrv_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_utility.php.html">sqlsrv_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---string_helper.php.html">string_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Table.php.html">Table.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---text_helper.php.html">text_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Trackback.php.html">Trackback.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Typography.php.html">Typography.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---typography_helper.php.html">typography_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Unit_test.php.html">Unit_test.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Upload.php.html">Upload.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---URI.php.html">URI.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---url_helper.php.html">url_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---User_agent.php.html">User_agent.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_core---Utf8.php.html">Utf8.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Xmlrpc.php.html">Xmlrpc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Xmlrpcs.php.html">Xmlrpcs.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_helpers---xml_helper.php.html">xml_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../CodeIgniter/_libraries---Zip.php.html">Zip.php</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	Libraries<br />	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Benchmark.html">CI_Benchmark</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cache.html">CI_Cache</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cache_apc.html">CI_Cache_apc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cache_dummy.html">CI_Cache_dummy</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cache_file.html">CI_Cache_file</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cache_memcached.html">CI_Cache_memcached</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Calendar.html">CI_Calendar</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Cart.html">CI_Cart</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Config.html">CI_Config</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Controller.html">CI_Controller</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Driver.html">CI_Driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Driver_Library.html">CI_Driver_Library</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Email.html">CI_Email</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Encrypt.html">CI_Encrypt</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Exceptions.html">CI_Exceptions</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Form_validation.html">CI_Form_validation</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_FTP.html">CI_FTP</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Hooks.html">CI_Hooks</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Image_lib.html">CI_Image_lib</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Input.html">CI_Input</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Javascript.html">CI_Javascript</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Jquery.html">CI_Jquery</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Lang.html">CI_Lang</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Loader.html">CI_Loader</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Log.html">CI_Log</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Migration.html">CI_Migration</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Model.html">CI_Model</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Output.html">CI_Output</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Pagination.html">CI_Pagination</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Parser.html">CI_Parser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Profiler.html">CI_Profiler</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Router.html">CI_Router</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Security.html">CI_Security</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Session.html">CI_Session</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_SHA1.html">CI_SHA1</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Table.html">CI_Table</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Trackback.html">CI_Trackback</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Unit_test.html">CI_Unit_test</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Upload.html">CI_Upload</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_URI.html">CI_URI</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_User_agent.html">CI_User_agent</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Utf8.html">CI_Utf8</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Xmlrpc.html">CI_Xmlrpc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Xmlrpcs.html">CI_Xmlrpcs</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/CI_Zip.html">CI_Zip</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/XML_RPC_Client.html">XML_RPC_Client</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/XML_RPC_Message.html">XML_RPC_Message</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Libraries/XML_RPC_Values.html">XML_RPC_Values</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Drivers<br />	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_active_record.html">CI_DB_active_record</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_cubrid_driver.html">CI_DB_cubrid_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_driver.html">CI_DB_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_mssql_driver.html">CI_DB_mssql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_mysqli_driver.html">CI_DB_mysqli_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_mysql_driver.html">CI_DB_mysql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_odbc_driver.html">CI_DB_odbc_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_pdo_driver.html">CI_DB_pdo_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_postgre_driver.html">CI_DB_postgre_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_sqlite_driver.html">CI_DB_sqlite_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../CodeIgniter/Drivers/CI_DB_sqlsrv_driver.html">CI_DB_sqlsrv_driver</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../CodeIgniter/CI_DB_Cache.html">CI_DB_Cache</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_cubrid_forge.html">CI_DB_cubrid_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_cubrid_result.html">CI_DB_cubrid_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_cubrid_utility.html">CI_DB_cubrid_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_forge.html">CI_DB_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mssql_forge.html">CI_DB_mssql_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mssql_result.html">CI_DB_mssql_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mssql_utility.html">CI_DB_mssql_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysqli_forge.html">CI_DB_mysqli_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysqli_result.html">CI_DB_mysqli_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysqli_utility.html">CI_DB_mysqli_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysql_forge.html">CI_DB_mysql_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysql_result.html">CI_DB_mysql_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_mysql_utility.html">CI_DB_mysql_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_oci8_driver.html">CI_DB_oci8_driver</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_oci8_forge.html">CI_DB_oci8_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_oci8_result.html">CI_DB_oci8_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_oci8_utility.html">CI_DB_oci8_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_odbc_forge.html">CI_DB_odbc_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_odbc_result.html">CI_DB_odbc_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_odbc_utility.html">CI_DB_odbc_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_pdo_forge.html">CI_DB_pdo_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_pdo_result.html">CI_DB_pdo_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_pdo_utility.html">CI_DB_pdo_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_postgre_forge.html">CI_DB_postgre_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_postgre_result.html">CI_DB_postgre_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_postgre_utility.html">CI_DB_postgre_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_result.html">CI_DB_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlite_forge.html">CI_DB_sqlite_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlite_result.html">CI_DB_sqlite_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlite_utility.html">CI_DB_sqlite_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlsrv_forge.html">CI_DB_sqlsrv_forge</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlsrv_result.html">CI_DB_sqlsrv_result</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_sqlsrv_utility.html">CI_DB_sqlsrv_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_DB_utility.html">CI_DB_utility</a>    	 <br />
+	    		<a href="../CodeIgniter/CI_Typography.html">CI_Typography</a>    	 <br />
+	    		<a href="../CodeIgniter/XML_RPC_Response.html">XML_RPC_Response</a>    	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: CI_DB_pdo_result</h1>
+Source Location: /database/drivers/pdo/pdo_result.php<br /><br />
+
+<h2 class="class-name">Class CI_DB_pdo_result</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span> |
+						
+					<a href="#sec-inherited">Inherited Properties, Constants, and Methods</a>
+			|											<a href="#sec-vars">Properties</a>
+						|											<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>PDO Result Class
+</strong></p>
+<span class="description"><p>This class extends the parent result class: CI_DB_result</p></span>
+		<p class="notes">
+			Located in <a class="field" href="_database---drivers---pdo---pdo_result.php.html">/database/drivers/pdo/pdo_result.php</a> [<span class="field">line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a27">27</a></span>]
+		</p>
+
+		
+		<pre><a href="../CodeIgniter/CI_DB_result.html">CI_DB_result</a>
+   |
+   --CI_DB_pdo_result</pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>EllisLab Dev Team</li>
+			 		  			 		  		</ul>
+		
+		
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Link:</strong>&nbsp;&nbsp;</td><td><a href="http://codeigniter.com/user_guide/database/">http://codeigniter.com/user_guide/database/</a></td></tr>
+	</table>
+		</td>
+
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#methodfield_data">field_data</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#methodfree_result">free_result</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#methodlist_fields">list_fields</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#methodnum_fields">num_fields</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#methodnum_rows">num_rows</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#method_data_seek">_data_seek</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#method_fetch_assoc">_fetch_assoc</a></li>
+		  		  <li><a href="../CodeIgniter/CI_DB_pdo_result.html#method_fetch_object">_fetch_object</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+	<a name="sec-inherited"></a>
+	<div class="info-box">
+		<div class="info-box-title">Inherited Properties, Constants, and Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+						|			<span class="disabled">Inherited Properties, Constants, and Methods</span>
+			|												<a href="#sec-vars">Properties</a>
+								|															<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											    				</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header" width="30%">Inherited Properties</th>
+					<th class="class-table-header" width="40%">Inherited Methods</th>
+					<th class="class-table-header" width="30%">Inherited Constants</th>
+				</tr>
+				<tr>
+					<td width="30%">
+													<p>Inherited From <span class="classname"><a href="../CodeIgniter/CI_DB_result.html">CI_DB_result</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$conn_id">CI_DB_result::$conn_id</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$current_row">CI_DB_result::$current_row</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$custom_result_object">CI_DB_result::$custom_result_object</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$num_rows">CI_DB_result::$num_rows</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$result_array">CI_DB_result::$result_array</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$result_id">CI_DB_result::$result_id</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$result_object">CI_DB_result::$result_object</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#var$row_data">CI_DB_result::$row_data</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																	</dl>
+							</blockquote>
+											</td>
+					<td width="40%">
+													<p>Inherited From <span class="classname"><a href="../CodeIgniter/CI_DB_result.html">CI_DB_result</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodcustom_result_object">CI_DB_result::custom_result_object()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Custom query result.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodcustom_row_object">CI_DB_result::custom_row_object()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns a single result row - custom object version</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodfield_data">CI_DB_result::field_data()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodfirst_row">CI_DB_result::first_row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the &quot;first&quot; row</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodfree_result">CI_DB_result::free_result()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodlast_row">CI_DB_result::last_row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the &quot;last&quot; row</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodlist_fields">CI_DB_result::list_fields()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodnext_row">CI_DB_result::next_row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the &quot;next&quot; row</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodnum_fields">CI_DB_result::num_fields()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodnum_rows">CI_DB_result::num_rows()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">The following functions are normally overloaded by the identically named  methods in the platform-specific driver -- except when query caching  is used.  When caching is enabled we do not load the other driver.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodprevious_row">CI_DB_result::previous_row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the &quot;previous&quot; row</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodresult">CI_DB_result::result()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Query result.  Acts as a wrapper function for the following functions.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodresult_array">CI_DB_result::result_array()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Query result.  &quot;array&quot; version.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodresult_object">CI_DB_result::result_object()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Query result.  &quot;object&quot; version.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodrow">CI_DB_result::row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Query result.  Acts as a wrapper function for the following functions.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodrow_array">CI_DB_result::row_array()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns a single result row - array version</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodrow_object">CI_DB_result::row_object()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns a single result row - object version</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#methodset_row">CI_DB_result::set_row()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Assigns an item into a particular column slot</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#method_data_seek">CI_DB_result::_data_seek()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#method_fetch_assoc">CI_DB_result::_fetch_assoc()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../CodeIgniter/CI_DB_result.html#method_fetch_object">CI_DB_result::_fetch_object()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																	</dl>
+							</blockquote>
+											</td>
+					<td width="30%">
+											</td>
+				</tr>
+			</table>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+										<a href="#sec-inherited">Inherited Properties and Methods</a>
+				|															<a href="#sec-vars">Properties</a>
+											    					<span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																																																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#field_data" title="details" class="method-name">field_data</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Field data</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">null</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#free_result" title="details" class="method-name">free_result</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Free the result</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#list_fields" title="details" class="method-name">list_fields</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Fetch Field Names</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">integer</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#num_fields" title="details" class="method-name">num_fields</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Number of fields in the result set</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">integer</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#num_rows" title="details" class="method-name">num_rows</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Number of rows in the result set</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_data_seek" title="details" class="method-name">_data_seek</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Data Seek</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_fetch_assoc" title="details" class="method-name">_fetch_assoc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Result - associative array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">object</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_fetch_object" title="details" class="method-name">_fetch_object</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Result - object</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+										<a href="#sec-inherited">Inherited Properties and Methods</a>
+				|										<a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+			
+							|
+									<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+					</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+										<a href="#sec-inherited">Inherited Properties and Methods</a>
+				|						                |
+									<a href="#sec-vars">Properties</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="methodfield_data" id="field_data"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">field_data</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a82">82</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array field_data(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Field data
+</strong></p>
+<span class="description"><p>Generates an array of objects containing field meta-data</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#methodfield_data">CI_DB_result::field_data()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodfree_result" id="free_result"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">free_result</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a112">112</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>null free_result(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Free the result
+</strong></p>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#methodfree_result">CI_DB_result::free_result()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodlist_fields" id="list_fields"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">list_fields</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a63">63</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array list_fields(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Fetch Field Names
+</strong></p>
+<span class="description"><p>Generates an array of column names</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#methodlist_fields">CI_DB_result::list_fields()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodnum_fields" id="num_fields"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">num_fields</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a48">48</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>integer num_fields(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Number of fields in the result set
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#methodnum_fields">CI_DB_result::num_fields()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodnum_rows" id="num_rows"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">num_rows</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a35">35</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>integer num_rows(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Number of rows in the result set
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#methodnum_rows">CI_DB_result::num_rows()</a></dt>
+						<dd>The following functions are normally overloaded by the identically named  methods in the platform-specific driver -- except when query caching  is used.  When caching is enabled we do not load the other driver.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_data_seek" id="_data_seek"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_data_seek</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a132">132</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array _data_seek(
+[
+$n = 0]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Data Seek
+</strong></p>
+<span class="description"><p>Moves the internal pointer to the desired offset.  We call  this internally before fetching results to make sure the  result set starts at zero</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$n:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#method_data_seek">CI_DB_result::_data_seek()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_fetch_assoc" id="_fetch_assoc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_fetch_assoc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a147">147</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array _fetch_assoc(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Result - associative array
+</strong></p>
+<span class="description"><p>Returns the result set as an array</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#method_fetch_assoc">CI_DB_result::_fetch_assoc()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_fetch_object" id="_fetch_object"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_fetch_object</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../__filesource/fsource_CodeIgniter__databasedriverspdopdo_result.php.html#a162">162</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>object _fetch_object(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Result - object
+</strong></p>
+<span class="description"><p>Returns the result set as an object</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../CodeIgniter/CI_DB_result.html#method_fetch_object">CI_DB_result::_fetch_object()</a></dt>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Mon, 07 May 2012 21:05:35 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

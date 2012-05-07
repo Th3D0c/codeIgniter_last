@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class CI_Encrypt</title>
+	<link rel="stylesheet" type="text/css" href="../../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">CodeIgniter<br /><div class="header-top-right-subpackage">Libraries</div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+  		  [ <a href="../../classtrees_CodeIgniter.html" class="menu">class tree: CodeIgniter</a> ]
+		  [ <a href="../../elementindex_CodeIgniter.html" class="menu">index: CodeIgniter</a> ]
+		  [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">CodeIgniter</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../../li_default.html">default</a><br />
+              <a href="../../li_CodeIgniter.html">CodeIgniter</a><br />
+      	</div>
+      <br />
+                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---array_helper.php.html">array_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Benchmark.php.html">Benchmark.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---Cache.php.html">Cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_apc.php.html">Cache_apc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_dummy.php.html">Cache_dummy.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_file.php.html">Cache_file.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cache---drivers---Cache_memcached.php.html">Cache_memcached.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Calendar.php.html">Calendar.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---captcha_helper.php.html">captcha_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Cart.php.html">Cart.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---CodeIgniter.php.html">CodeIgniter.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Common.php.html">Common.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Config.php.html">Config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Controller.php.html">Controller.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---cookie_helper.php.html">cookie_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_driver.php.html">cubrid_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_forge.php.html">cubrid_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_result.php.html">cubrid_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---cubrid---cubrid_utility.php.html">cubrid_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---date_helper.php.html">date_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB.php.html">DB.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_active_rec.php.html">DB_active_rec.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_cache.php.html">DB_cache.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_driver.php.html">DB_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_forge.php.html">DB_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_result.php.html">DB_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---DB_utility.php.html">DB_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---directory_helper.php.html">directory_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---download_helper.php.html">download_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Driver.php.html">Driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Email.php.html">Email.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---email_helper.php.html">email_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Encrypt.php.html">Encrypt.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Exceptions.php.html">Exceptions.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---file_helper.php.html">file_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---form_helper.php.html">form_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Form_validation.php.html">Form_validation.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Ftp.php.html">Ftp.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Hooks.php.html">Hooks.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---html_helper.php.html">html_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Image_lib.php.html">Image_lib.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---inflector_helper.php.html">inflector_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Input.php.html">Input.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Javascript.php.html">Javascript.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---javascript---Jquery.php.html">Jquery.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Lang.php.html">Lang.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---language_helper.php.html">language_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Loader.php.html">Loader.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Log.php.html">Log.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Migration.php.html">Migration.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Model.php.html">Model.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_driver.php.html">mssql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_forge.php.html">mssql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_result.php.html">mssql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mssql---mssql_utility.php.html">mssql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_driver.php.html">mysqli_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_forge.php.html">mysqli_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_result.php.html">mysqli_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysqli---mysqli_utility.php.html">mysqli_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_driver.php.html">mysql_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_forge.php.html">mysql_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_result.php.html">mysql_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---mysql---mysql_utility.php.html">mysql_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---number_helper.php.html">number_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_driver.php.html">oci8_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_forge.php.html">oci8_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_result.php.html">oci8_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---oci8---oci8_utility.php.html">oci8_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_driver.php.html">odbc_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_forge.php.html">odbc_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_result.php.html">odbc_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---odbc---odbc_utility.php.html">odbc_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Output.php.html">Output.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Pagination.php.html">Pagination.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Parser.php.html">Parser.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---path_helper.php.html">path_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_driver.php.html">pdo_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_forge.php.html">pdo_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_result.php.html">pdo_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---pdo---pdo_utility.php.html">pdo_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_driver.php.html">postgre_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_forge.php.html">postgre_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_result.php.html">postgre_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---postgre---postgre_utility.php.html">postgre_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Profiler.php.html">Profiler.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Router.php.html">Router.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Security.php.html">Security.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---security_helper.php.html">security_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Session.php.html">Session.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Sha1.php.html">Sha1.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---smiley_helper.php.html">smiley_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_driver.php.html">sqlite_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_forge.php.html">sqlite_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_result.php.html">sqlite_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlite---sqlite_utility.php.html">sqlite_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_driver.php.html">sqlsrv_driver.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_forge.php.html">sqlsrv_forge.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_result.php.html">sqlsrv_result.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_database---drivers---sqlsrv---sqlsrv_utility.php.html">sqlsrv_utility.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---string_helper.php.html">string_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Table.php.html">Table.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---text_helper.php.html">text_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Trackback.php.html">Trackback.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Typography.php.html">Typography.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---typography_helper.php.html">typography_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Unit_test.php.html">Unit_test.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Upload.php.html">Upload.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---URI.php.html">URI.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---url_helper.php.html">url_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---User_agent.php.html">User_agent.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_core---Utf8.php.html">Utf8.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Xmlrpc.php.html">Xmlrpc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Xmlrpcs.php.html">Xmlrpcs.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_helpers---xml_helper.php.html">xml_helper.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../CodeIgniter/_libraries---Zip.php.html">Zip.php</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	Libraries<br />	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Benchmark.html">CI_Benchmark</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache.html">CI_Cache</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_apc.html">CI_Cache_apc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_dummy.html">CI_Cache_dummy</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_file.html">CI_Cache_file</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cache_memcached.html">CI_Cache_memcached</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Calendar.html">CI_Calendar</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Cart.html">CI_Cart</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Config.html">CI_Config</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Controller.html">CI_Controller</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Driver.html">CI_Driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Driver_Library.html">CI_Driver_Library</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Email.html">CI_Email</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Encrypt.html">CI_Encrypt</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Exceptions.html">CI_Exceptions</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Form_validation.html">CI_Form_validation</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_FTP.html">CI_FTP</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Hooks.html">CI_Hooks</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Image_lib.html">CI_Image_lib</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Input.html">CI_Input</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Javascript.html">CI_Javascript</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Jquery.html">CI_Jquery</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Lang.html">CI_Lang</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Loader.html">CI_Loader</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Log.html">CI_Log</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Migration.html">CI_Migration</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Model.html">CI_Model</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Output.html">CI_Output</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Pagination.html">CI_Pagination</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Parser.html">CI_Parser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Profiler.html">CI_Profiler</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Router.html">CI_Router</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Security.html">CI_Security</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Session.html">CI_Session</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_SHA1.html">CI_SHA1</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Table.html">CI_Table</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Trackback.html">CI_Trackback</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Unit_test.html">CI_Unit_test</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Upload.html">CI_Upload</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_URI.html">CI_URI</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_User_agent.html">CI_User_agent</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Utf8.html">CI_Utf8</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Xmlrpc.html">CI_Xmlrpc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Xmlrpcs.html">CI_Xmlrpcs</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/CI_Zip.html">CI_Zip</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Client.html">XML_RPC_Client</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Message.html">XML_RPC_Message</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Libraries/XML_RPC_Values.html">XML_RPC_Values</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Drivers<br />	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_active_record.html">CI_DB_active_record</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_cubrid_driver.html">CI_DB_cubrid_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_driver.html">CI_DB_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mssql_driver.html">CI_DB_mssql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mysqli_driver.html">CI_DB_mysqli_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_mysql_driver.html">CI_DB_mysql_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_odbc_driver.html">CI_DB_odbc_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_pdo_driver.html">CI_DB_pdo_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_postgre_driver.html">CI_DB_postgre_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_sqlite_driver.html">CI_DB_sqlite_driver</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../CodeIgniter/Drivers/CI_DB_sqlsrv_driver.html">CI_DB_sqlsrv_driver</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../../CodeIgniter/CI_DB_Cache.html">CI_DB_Cache</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_forge.html">CI_DB_cubrid_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_result.html">CI_DB_cubrid_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_cubrid_utility.html">CI_DB_cubrid_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_forge.html">CI_DB_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_forge.html">CI_DB_mssql_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_result.html">CI_DB_mssql_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mssql_utility.html">CI_DB_mssql_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_forge.html">CI_DB_mysqli_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_result.html">CI_DB_mysqli_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysqli_utility.html">CI_DB_mysqli_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_forge.html">CI_DB_mysql_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_result.html">CI_DB_mysql_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_mysql_utility.html">CI_DB_mysql_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_driver.html">CI_DB_oci8_driver</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_forge.html">CI_DB_oci8_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_result.html">CI_DB_oci8_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_oci8_utility.html">CI_DB_oci8_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_forge.html">CI_DB_odbc_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_result.html">CI_DB_odbc_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_odbc_utility.html">CI_DB_odbc_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_forge.html">CI_DB_pdo_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_result.html">CI_DB_pdo_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_pdo_utility.html">CI_DB_pdo_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_forge.html">CI_DB_postgre_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_result.html">CI_DB_postgre_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_postgre_utility.html">CI_DB_postgre_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_result.html">CI_DB_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_forge.html">CI_DB_sqlite_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_result.html">CI_DB_sqlite_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlite_utility.html">CI_DB_sqlite_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_forge.html">CI_DB_sqlsrv_forge</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_result.html">CI_DB_sqlsrv_result</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_sqlsrv_utility.html">CI_DB_sqlsrv_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_DB_utility.html">CI_DB_utility</a>    	 <br />
+	    		<a href="../../CodeIgniter/CI_Typography.html">CI_Typography</a>    	 <br />
+	    		<a href="../../CodeIgniter/XML_RPC_Response.html">XML_RPC_Response</a>    	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: CI_Encrypt</h1>
+Source Location: /libraries/Encrypt.php<br /><br />
+
+<h2 class="class-name">Class CI_Encrypt</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span> |
+						
+											<a href="#sec-var-summary">Properties Summary</a> | <a href="#sec-vars">Properties Detail</a>
+						|											<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>CodeIgniter Encryption Class
+</strong></p>
+<span class="description"><p>Provides two-way keyed encoding using XOR Hashing and Mcrypt</p></span>
+		<p class="notes">
+			Located in <a class="field" href="_libraries---Encrypt.php.html">/libraries/Encrypt.php</a> [<span class="field">line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a29">29</a></span>]
+		</p>
+
+		
+		<pre></pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>ExpressionEngine Dev Team</li>
+			 		  			 		  		</ul>
+		
+		
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Link:</strong>&nbsp;&nbsp;</td><td><a href="http://codeigniter.com/user_guide/libraries/encryption.html">http://codeigniter.com/user_guide/libraries/encryption.html</a></td></tr>
+	</table>
+		</td>
+
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_vars">Properties</a></strong></p>
+		<ul>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$CI">$CI</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$encryption_key">$encryption_key</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$_hash_type">$_hash_type</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$_mcrypt_cipher">$_mcrypt_cipher</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$_mcrypt_exists">$_mcrypt_exists</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#var$_mcrypt_mode">$_mcrypt_mode</a></li>
+		  		</ul>
+		</td>
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method__construct">__construct</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methoddecode">decode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodencode">encode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodencode_from_legacy">encode_from_legacy</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodget_key">get_key</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodhash">hash</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodmcrypt_decode">mcrypt_decode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodmcrypt_encode">mcrypt_encode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodset_cipher">set_cipher</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodset_hash">set_hash</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodset_key">set_key</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodset_mode">set_mode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#methodsha1">sha1</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_add_cipher_noise">_add_cipher_noise</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_get_cipher">_get_cipher</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_get_mode">_get_mode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_remove_cipher_noise">_remove_cipher_noise</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_xor_decode">_xor_decode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_xor_encode">_xor_encode</a></li>
+		  		  <li><a href="../../CodeIgniter/Libraries/CI_Encrypt.html#method_xor_merge">_xor_merge</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Property Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+									<span class="disabled">Property Summary</span> | <a href="#sec-vars">Properties Detail</a>
+												<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+											    				</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+			<table border="0" cellspacing="0" cellpadding="0" class="var-summary">
+																																																	<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$CI" title="details" class="var-name-summary">$CI</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$encryption_key" title="details" class="var-name-summary">$encryption_key</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_hash_type" title="details" class="var-name-summary">$_hash_type</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_mcrypt_cipher" title="details" class="var-name-summary">$_mcrypt_cipher</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_mcrypt_exists" title="details" class="var-name-summary">$_mcrypt_exists</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$_mcrypt_mode" title="details" class="var-name-summary">$_mcrypt_mode</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+										</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+																		<a href="#sec-var-summary">Properties Summary</a> | <a href="#sec-vars">Properties Detail</a>
+											    					<span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																																																																																																																																																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">CI_Encrypt</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#__construct" title="details" class="method-name">__construct</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Constructor</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#decode" title="details" class="method-name">decode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Decode</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#encode" title="details" class="method-name">encode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Encode</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#encode_from_legacy" title="details" class="method-name">encode_from_legacy</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Encode from Legacy</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#get_key" title="details" class="method-name">get_key</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Fetch the encryption key</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#hash" title="details" class="method-name">hash</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Hash encode a string</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#mcrypt_decode" title="details" class="method-name">mcrypt_decode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Decrypt using Mcrypt</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#mcrypt_encode" title="details" class="method-name">mcrypt_encode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Encrypt using Mcrypt</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_cipher" title="details" class="method-name">set_cipher</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set the Mcrypt Cipher</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_hash" title="details" class="method-name">set_hash</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set the Hash type</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_key" title="details" class="method-name">set_key</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set the encryption key</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#set_mode" title="details" class="method-name">set_mode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set the Mcrypt Mode</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#sha1" title="details" class="method-name">sha1</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Generate an SHA1 Hash</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_add_cipher_noise" title="details" class="method-name">_add_cipher_noise</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Adds permuted noise to the IV + encrypted data to protect  against Man-in-the-middle attacks on CBC mode ciphers  http://www.ciphersbyritter.com/GLOSSARY.HTM#IV</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_get_cipher" title="details" class="method-name">_get_cipher</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Get Mcrypt cipher Value</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_get_mode" title="details" class="method-name">_get_mode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Get Mcrypt Mode Value</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">type</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_remove_cipher_noise" title="details" class="method-name">_remove_cipher_noise</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Removes permuted noise from the IV + encrypted data, reversing  _add_cipher_noise()</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_xor_decode" title="details" class="method-name">_xor_decode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">XOR Decode</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_xor_encode" title="details" class="method-name">_xor_encode</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">XOR Encode</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#_xor_merge" title="details" class="method-name">_xor_merge</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">XOR key + string Combiner</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+													<a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+			
+							|
+									<a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+			<a name="var$CI" id="$CI"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$CI</span>
+						<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a31">31</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$encryption_key" id="$encryption_key"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$encryption_key</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a32">32</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_hash_type" id="$_hash_type"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_hash_type</span>
+			 = <span class="var-default"> 'sha1'</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a33">33</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_mcrypt_cipher" id="$_mcrypt_cipher"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_mcrypt_cipher</span>
+						<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a35">35</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_mcrypt_exists" id="$_mcrypt_exists"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_mcrypt_exists</span>
+			 = <span class="var-default"> FALSE</span>			<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a34">34</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$_mcrypt_mode" id="$_mcrypt_mode"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$_mcrypt_mode</span>
+						<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a36">36</a>]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a> |
+									                |
+									<a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Constructor __construct</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a44">44</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>CI_Encrypt __construct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Constructor
+</strong></p>
+<span class="description"><p>Simply determines whether the mcrypt library exists.</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methoddecode" id="decode"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">decode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a144">144</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string decode(
+string
+$string, [string
+$key = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Decode
+</strong></p>
+<span class="description"><p>Reverses the above process</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodencode" id="encode"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">encode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a116">116</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string encode(
+string
+$string, [string
+$key = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Encode
+</strong></p>
+<span class="description"><p>Encodes the message string using bitwise XOR encoding.  The key is combined with a random hash, and then it  too gets converted using XOR. The whole thing is then run  through mcrypt (if supported) using the randomized key.  The end result is a double-encrypted message string  that is randomized with each call to this function,  even if the supplied message and key are the same.</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the string to encode</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the key</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodencode_from_legacy" id="encode_from_legacy"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">encode_from_legacy</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a188">188</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string encode_from_legacy(
+string
+$string, [int
+$legacy_mode = MCRYPT_MODE_ECB], [string
+$key = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Encode from Legacy
+</strong></p>
+<span class="description"><p>Takes an encoded string from the original Encryption class algorithms and  returns a newly encoded string using the improved method added in 2.0.0  This allows for backwards compatibility and a method to transition to the  new encryption algorithms.</p><p>For more details, see http://codeigniter.com/user_guide/installation/upgrade_200.html#encryption</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">int</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$legacy_mode:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> (mcrypt mode constant)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodget_key" id="get_key"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">get_key</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a63">63</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string get_key(
+[string
+$key = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Fetch the encryption key
+</strong></p>
+<span class="description"><p>Returns it as MD5 in order to have an exact-length 128 bit key.  Mcrypt is sensitive to keys that are not the correct length</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodhash" id="hash"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">hash</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a507">507</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string hash(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Hash encode a string
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmcrypt_decode" id="mcrypt_decode"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">mcrypt_decode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a334">334</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string mcrypt_decode(
+string
+$data, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Decrypt using Mcrypt
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$data:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmcrypt_encode" id="mcrypt_encode"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">mcrypt_encode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a317">317</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string mcrypt_encode(
+string
+$data, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Encrypt using Mcrypt
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$data:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_cipher" id="set_cipher"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">set_cipher</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a429">429</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_cipher(
+constant
+$cipher&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set the Mcrypt Cipher
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">constant</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$cipher:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_hash" id="set_hash"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_hash</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a493">493</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_hash(
+[string
+$type = 'sha1']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set the Hash type
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$type:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_key" id="set_key"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">set_key</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a93">93</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void set_key(
+[string
+$key = '']&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set the encryption key
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodset_mode" id="set_mode"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">set_mode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a443">443</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string set_mode(
+constant
+$mode&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set the Mcrypt Mode
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">constant</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$mode:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsha1" id="sha1"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">sha1</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a521">521</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string sha1(
+string
+$str&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Generate an SHA1 Hash
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$str:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_add_cipher_noise" id="_add_cipher_noise"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_add_cipher_noise</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a363">363</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _add_cipher_noise(
+string
+$data, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Adds permuted noise to the IV + encrypted data to protect  against Man-in-the-middle attacks on CBC mode ciphers  http://www.ciphersbyritter.com/GLOSSARY.HTM#IV
+</strong></p>
+<span class="description"><p>Function description</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$data:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_get_cipher" id="_get_cipher"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_get_cipher</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a456">456</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _get_cipher(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Get Mcrypt cipher Value
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_get_mode" id="_get_mode"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_get_mode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a474">474</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _get_mode(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Get Mcrypt Mode Value
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_remove_cipher_noise" id="_remove_cipher_noise"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_remove_cipher_noise</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a394">394</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>type _remove_cipher_noise(
+type
+$data, 
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Removes permuted noise from the IV + encrypted data, reversing  _add_cipher_noise()
+</strong></p>
+<span class="description"><p>Function description</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">type</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$data:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_xor_decode" id="_xor_decode"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_xor_decode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a270">270</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _xor_decode(
+string
+$string, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>XOR Decode
+</strong></p>
+<span class="description"><p>Takes an encoded string and key as input and generates the  plain-text original message</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_xor_encode" id="_xor_encode"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">_xor_encode</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a238">238</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _xor_encode(
+string
+$string, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>XOR Encode
+</strong></p>
+<span class="description"><p>Takes a plain-text string and key as input and generates an  encoded bit-string using XOR</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="method_xor_merge" id="_xor_merge"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">_xor_merge</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_CodeIgniter__librariesEncrypt.php.html#a295">295</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string _xor_merge(
+string
+$string, string
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>XOR key + string Combiner
+</strong></p>
+<span class="description"><p>Takes a string and key as input and computes the difference using XOR</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$string:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Access:</strong>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Mon, 07 May 2012 21:04:48 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
